@@ -2,61 +2,70 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>FitPro Academy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aesthetic Pro Guide</title>
 <link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
 </head>
 <body>
+
 <nav>
-<div class="logo">FITPRO</div>
-<div>
-<a href="#programmi">Programmi</a>
-<a href="#recensioni">Recensioni</a>
-<a href="#faq">FAQ</a>
-<a href="#contatti">Contatti</a>
-</div>
+  <div class="logo">APG</div>
+  <ul>
+    <li><a href="#programmi">Programmi</a></li>
+    <li><a href="#custom">Personalizzati</a></li>
+    <li><a href="#reviews">Recensioni</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
 </nav>
 
 <header class="hero">
-<h1>Trasforma il tuo fisico con programmi professionali</h1>
-<p>Schede di allenamento create per massa muscolare, dimagrimento e performance.</p>
-<a class="btn" href="#programmi">Inizia ora</a>
+  <div class="overlay">
+    <h1>AESTHETIC PRO GUIDE</h1>
+    <p>Programmi professionali per costruire il fisico che hai sempre voluto.</p>
+    <a href="#programmi" class="btn">SCOPRI I PROGRAMMI</a>
+  </div>
 </header>
 
 <section id="programmi">
-<h2>Programmi</h2>
+<h2>Programmi Standard</h2>
 <div class="cards">
-<div class="card"><h3>Principiante</h3><p>3 allenamenti settimanali.</p><div class="price">€19</div><button>Acquista</button></div>
-<div class="card"><h3>Massa Muscolare</h3><p>Progressione 12 settimane.</p><div class="price">€29</div><button>Acquista</button></div>
-<div class="card"><h3>Dimagrimento</h3><p>Allenamento + cardio.</p><div class="price">€24</div><button>Acquista</button></div>
+<div class="card"><h3>Principiante</h3><p>3 allenamenti/settimana.</p><span>€19</span></div>
+<div class="card"><h3>Massa Muscolare</h3><p>12 settimane di progressione.</p><span>€29</span></div>
+<div class="card"><h3>Definizione</h3><p>Allenamento + cardio.</p><span>€29</span></div>
 </div>
 </section>
 
-<section id="recensioni">
+<section id="custom">
+<h2>Scheda Personalizzata</h2>
+<p>Compila il questionario e ricevi un programma costruito sui tuoi obiettivi.</p>
+<form>
+<input placeholder="Nome">
+<input placeholder="Email">
+<input placeholder="Obiettivo">
+<textarea placeholder="Descrivi il tuo livello e l'attrezzatura disponibile"></textarea>
+<button type="submit">Richiedi la scheda</button>
+</form>
+</section>
+
+<section id="reviews">
 <h2>Recensioni</h2>
 <div class="cards">
-<div class="card">★★★★★<p>Programma chiaro e risultati concreti.</p></div>
-<div class="card">★★★★★<p>Ottima organizzazione degli allenamenti.</p></div>
-<div class="card">★★★★★<p>Perfetto per tornare in forma.</p></div>
+<div class="card">★★★★★<p>Ottimi risultati dopo 8 settimane.</p></div>
+<div class="card">★★★★★<p>Programma chiaro e professionale.</p></div>
+<div class="card">★★★★★<p>La migliore guida che abbia provato.</p></div>
 </div>
 </section>
 
 <section id="faq">
-<h2>FAQ</h2>
-<p><b>Ricevo il PDF subito?</b><br>Sì, dopo il pagamento.</p>
-<p><b>Serve la palestra?</b><br>Dipende dal programma scelto.</p>
+<h2>Domande Frequenti</h2>
+<div class="faq-item"><button class="faq-btn">Quando ricevo la scheda?</button><div class="faq-content">Subito dopo il pagamento o entro 24 ore per quelle personalizzate.</div></div>
+<div class="faq-item"><button class="faq-btn">Serve una palestra?</button><div class="faq-content">Dipende dal programma scelto.</div></div>
 </section>
 
-<section id="contatti">
-<h2>Contatti</h2>
-<form>
-<input placeholder="Nome">
-<input placeholder="Email">
-<textarea placeholder="Messaggio"></textarea>
-<button type="submit">Invia</button>
-</form>
-</section>
+<footer>
+<p>© 2026 Aesthetic Pro Guide</p>
+</footer>
 
-<footer>© FitPro Academy</footer>
 </body>
 </html>
